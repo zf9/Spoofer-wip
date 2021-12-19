@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c40325a5-a22f-47ed-afe3-31330cc0867b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protections">
+      <UniqueIdentifier>{5b428e74-8047-48e8-b3b7-2317231857ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bytes">
+      <UniqueIdentifier>{ce428db5-1e62-4e8b-b7f7-ef04bd717f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bytes\B">
+      <UniqueIdentifier>{abfd27e2-4dd6-4fbd-b2d2-2d4c89d9977c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpooferSource.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="bytetofile.cpp">
+      <Filter>Bytes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="skCrypt.h">
+      <Filter>Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Condom-Header.h">
+      <Filter>Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BirthControl-Header.h">
+      <Filter>Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="PullOut-Header.h">
+      <Filter>Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="bytetofile.hpp">
+      <Filter>Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskDriver1.h">
+      <Filter>Bytes\B</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskMapper1.h">
+      <Filter>Bytes\B</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
