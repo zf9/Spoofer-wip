@@ -39,7 +39,7 @@ int main()
 	C_Color();
 	std::cout << _xor_("\n\n") << "\n";
 	std::cout << _xor_("     +--^----------,--------,-----,--------^-,") << "\n";
-	std::cout << _xor_("     | |||||||||   `--------'     |          O       Made By ZF9#1214 + ScriptKiddies#7771 < He did nothing!") << "\n";
+	std::cout << _xor_("     | |||||||||   `--------'     |          O       Made By ZF9#1214 + BadVibesForever#1337") << "\n";
 	std::cout << _xor_("     `+---------------------------^----------|") << "\n";
 	std::cout << _xor_("       `\_,---------,---------,--------------'") << "\n";
 	std::cout << _xor_("         / XXXXXX /'|       /'") << "\n";
